@@ -1,0 +1,5 @@
+markdown: kramdown
+permalink: /:year/:month/:title/
+url: http://zhonglinHan.github.io
+author: zhonglin
+highlighter: rouge
