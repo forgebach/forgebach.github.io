@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>
+      
+    </title>
+
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        <header>
+          <h1 class="header"><a href="/">Z. Han</a></h1>
+          <p class="header">
+            Full Stack Data Scientist
+          </p>
+          <br>
+          <p class="header">
+            Email: <br />
+            hanzhonglin1990@gmail.com
+            <br>
+            <a class="header name" href="https://www.linkedin.com/in/zhonglin-han-77477a1a">Linkedin</a>
+            <a class="header name" href="https://github.com/forgebach">GitHub</a>
+            <a class="header name" href="https://www.kaggle.com/etherqua">Kaggle</a>
+          </p>
+          <ul>
+            <li>
+              <span><a title="home page" class="" href="http://forgebach.github.io/">home</a></span>
+            </li>
+            <li>
+              <span><a title="about" class="" href="http://forgebach.github.io/about/">about</a></span>
+            </li>
+            <li>
+              <span><a title="categories" class="" href="http://forgebach.github.io/categories/">categories</a></span>
+            </li>
+            <li>
+              <span><a title="tags" class="" href="http://forgebach.github.io/tags/">tags</a></span>
+            </li>
+            <li>
+              <span><a title="links" class="" href="http://forgebach.github.io/links/">links</a></span>
+            </li>
+            <li>
+              <span><a title="subscribe by RSS" class="" href="http://forgebach.github.io">subscribe</a></span>
+            </li>
+          </ul>
+        </header>
+      </div>
+      <div>
+        <article class="content">
+
+        <section class="post">
+  <h1>How to build a spark tensorflow cluster with EMR</h1>
+<p>Hello Caffeine-jekyll-theme</p>
+
+</section>
+<section class="meta">
+<span class="author">
+  <a href="http://hmybmny.com">zhonglin</a>
+</span>
+<span class="time">
+  /
+  <time datetime="2017-01-17">2017-01-17</time>
+</span>
+<br />
+<span class="license">
+  Published under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">(CC) BY-NC-SA</a>
+</span>
+
+<span class="categories">
+  in categories
+  
+  <a href="http://forgebach.github.io/categories/#Notes" title="Notes">Notes</a>&nbsp;
+  
+</span>
+
+
+<span class="tags">
+  tagged with 
+  
+  <a href="http://forgebach.github.io/tags/#Deep Learning" title="Deep Learning">Deep Learning</a>&nbsp;
+  
+  <a href="http://forgebach.github.io/tags/#Spark" title="Spark">Spark</a>&nbsp;
+  
+</span>
+
+</section>
+<hr />
+<section class="github_issues_comments">
+<h2>Comments</h2>
+<div>
+  Want to leave a comment? Visit <a href="https://github.com/forgebach/forgebach.github.io/issues/" target="_blank"> this post's issue page on GitHub</a> (you'll need a GitHub account.)
+</div>
+<div id="comments"></div>
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) {
+    function loadComments(data) {
+        for (var i=0; i<data.length; i++) {
+            var cuser = data[i].user.login;
+            var cuserlink = "https://github.com/" + data[i].user.login;
+            var clink = "https://github.com/forgebach/forgebach.github.io/issues/#issuecomment-" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
+            var cbody = data[i].body;
+            var cavatarlink = data[i].user.avatar_url;
+            var options = { year: 'numeric', month: 'short', day: 'numeric' };
+            var cdate = new Date(data[i].created_at).toLocaleString("en", options);
+            $("#comments").append("<div id='comment'><table><tr><th rowspan='2'><a href=\""+ cuserlink +'\"><img src="' + cavatarlink + '" width="48" height="48">' + "</a></th><td><a href=\""+ cuserlink + "\">" + cuser + "</a> &nbsp; commented on <a href=\"" + clink + "\">" + cdate + "</a></td></tr><tr><td>" + cbody + "</td></tr></table></div>");
+        }
+    }
+    $.ajax("https://api.github.com/repos/forgebach/forgebach.github.io/issues//comments", {
+        headers: {Accept: "application/vnd.github.full+json"},
+        cache: false,
+        async: false,
+        dataType: "json",
+        success: function(msg){
+        loadComments(msg);
+        }
+    });
+});
+</script>
+</section>
+
+<script type="text/javascript">
+$(function(){
+  $(document).keydown(function(e) {
+    if (e.target.nodeName.toUpperCase() != 'BODY') return;
+    var url = false;
+        if (e.which == 37 || e.which == 74) {  // Left arrow and J
+            
+        }
+        else if (e.which == 39 || e.which == 75) {  // Right arrow and K
+            
+        }
+        if (url) {
+            window.location = url;
+        }
+  });
+})
+</script>
+
+
+
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

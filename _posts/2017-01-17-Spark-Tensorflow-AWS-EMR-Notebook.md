@@ -1,10 +1,11 @@
 ---
 layout: post
-title: First Test
+title: How to build a spark tensorflow cluster with EMR
 categories: 
-- Others
+- Notes
 tags:
-- Others
+- Deep Learning
+- Spark
 ---
 
 Hello Caffeine-jekyll-theme
