@@ -35,27 +35,27 @@
             hanzhonglin1990@gmail.com
             <br>
             <a class="header name" href="https://www.linkedin.com/in/zhonglin-han-77477a1a">Linkedin</a>
-            <a class="header name" href="https://github.com/zhonglinHan">GitHub</a>
+            <a class="header name" href="https://github.com/forgebach">GitHub</a>
             <a class="header name" href="https://www.kaggle.com/etherqua">Kaggle</a>
           </p>
           <ul>
             <li>
-              <span><a title="home page" class="" href="http://zhonglinHan.github.io/">home</a></span>
+              <span><a title="home page" class="" href="http://forgebach.github.io/">home</a></span>
             </li>
             <li>
-              <span><a title="about" class="" href="http://zhonglinHan.github.io/about/">about</a></span>
+              <span><a title="about" class="" href="http://forgebach.github.io/about/">about</a></span>
             </li>
             <li>
-              <span><a title="categories" class="" href="http://zhonglinHan.github.io/categories/">categories</a></span>
+              <span><a title="categories" class="" href="http://forgebach.github.io/categories/">categories</a></span>
             </li>
             <li>
-              <span><a title="tags" class="" href="http://zhonglinHan.github.io/tags/">tags</a></span>
+              <span><a title="tags" class="" href="http://forgebach.github.io/tags/">tags</a></span>
             </li>
             <li>
-              <span><a title="links" class="" href="http://zhonglinHan.github.io/links/">links</a></span>
+              <span><a title="links" class="" href="http://forgebach.github.io/links/">links</a></span>
             </li>
             <li>
-              <span><a title="subscribe by RSS" class="" href="http://zhonglinHan.github.io/feed/">subscribe</a></span>
+              <span><a title="subscribe by RSS" class="" href="http://forgebach.github.io/feed/">subscribe</a></span>
             </li>
           </ul>
         </header>
@@ -84,7 +84,7 @@
 <span class="categories">
   in categories
   
-  <a href="http://zhonglinHan.github.io/categories/#Others" title="Others">Others</a>&nbsp;
+  <a href="http://forgebach.github.io/categories/#Others" title="Others">Others</a>&nbsp;
   
 </span>
 
@@ -92,7 +92,7 @@
 <span class="tags">
   tagged with 
   
-  <a href="http://zhonglinHan.github.io/tags/#Others" title="Others">Others</a>&nbsp;
+  <a href="http://forgebach.github.io/tags/#Others" title="Others">Others</a>&nbsp;
   
 </span>
 
@@ -101,7 +101,7 @@
 <section class="github_issues_comments">
 <h2>Comments</h2>
 <div>
-  Want to leave a comment? Visit <a href="https://github.com/zhonglinHan/zhonglinHan.github.io/issues/" target="_blank"> this post's issue page on GitHub</a> (you'll need a GitHub account.)
+  Want to leave a comment? Visit <a href="https://github.com/forgebach/forgebach.github.io/issues/" target="_blank"> this post's issue page on GitHub</a> (you'll need a GitHub account.)
 </div>
 <div id="comments"></div>
 <script type="text/javascript">
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         for (var i=0; i<data.length; i++) {
             var cuser = data[i].user.login;
             var cuserlink = "https://github.com/" + data[i].user.login;
-            var clink = "https://github.com/zhonglinHan/zhonglinHan.github.io/issues/#issuecomment-" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
+            var clink = "https://github.com/forgebach/forgebach.github.io/issues/#issuecomment-" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
             var cbody = data[i].body;
             var cavatarlink = data[i].user.avatar_url;
             var options = { year: 'numeric', month: 'short', day: 'numeric' };
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             $("#comments").append("<div id='comment'><table><tr><th rowspan='2'><a href=\""+ cuserlink +'\"><img src="' + cavatarlink + '" width="48" height="48">' + "</a></th><td><a href=\""+ cuserlink + "\">" + cuser + "</a> &nbsp; commented on <a href=\"" + clink + "\">" + cdate + "</a></td></tr><tr><td>" + cbody + "</td></tr></table></div>");
         }
     }
-    $.ajax("https://api.github.com/repos/zhonglinHan/zhonglinHan.github.io/issues//comments", {
+    $.ajax("https://api.github.com/repos/forgebach/forgebach.github.io/issues//comments", {
         headers: {Accept: "application/vnd.github.full+json"},
         cache: false,
         async: false,

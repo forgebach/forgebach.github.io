@@ -1,5 +1,5 @@
 markdown: kramdown
 permalink: /:year/:month/:title/
-url: http://zhonglinHan.github.io
+url: http://forgebach.github.io
 author: zhonglin
 highlighter: rouge
