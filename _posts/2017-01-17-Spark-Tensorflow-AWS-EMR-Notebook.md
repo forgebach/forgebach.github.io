@@ -14,7 +14,7 @@ The need of spark tensorflow/theano integrations has been satisfied in many ways
 - AWS account
 - EMR security group with inbound settings for jupyter notebook
 
-<img src="/images/2017-01-17/software_config.png" width="800px" />
+<img src="/images/2017-01-17/software_config.png" width="600px" />
 
 ![](/images/2017-01-17/bootstrap_actions.png)
 
