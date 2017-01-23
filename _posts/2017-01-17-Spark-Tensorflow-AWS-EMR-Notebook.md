@@ -29,6 +29,7 @@ The need of spark tensorflow/theano integrations has been satisfied in many ways
 <img src="/images/2017-01-17/example_2.png" width="680px" />
 <img src="/images/2017-01-17/example_3.png" width="680px" />
 
+* the full notebook can be found [here](https://github.com/forgebach/tensorflow-pyspark/blob/master/notebook/pyspark_example.ipynb)
 
 
 #### Reference:
