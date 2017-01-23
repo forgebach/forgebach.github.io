@@ -17,6 +17,7 @@ The need of spark tensorflow/theano integrations has been satisfied in many ways
 <img src="/images/2017-01-17/software_config.png" width="600px" />
 
 Bootstrap actions:
+
 <img src="/images/2017-01-17/bootstrap_actions.png" width="600px" />
 
 ##### Reference:
