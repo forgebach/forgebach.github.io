@@ -22,6 +22,10 @@ The need of spark tensorflow/theano integrations has been satisfied in many ways
 
 ### Results:
 <img src="/images/2017-01-17/example_1.png" width="680px" />
+
+* an example of pyspark application 
+
+<img src="/images/2017-01-17/example_4.png" width="680px" />
 <img src="/images/2017-01-17/example_2.png" width="680px" />
 <img src="/images/2017-01-17/example_3.png" width="680px" />
 
