@@ -14,9 +14,11 @@ The need of spark tensorflow/theano integrations has been satisfied in many ways
 - AWS account
 - EMR security group with inbound settings for jupyter notebook
 
+### Step 1 : setup software configurations with EMR including spark, hadoop etc. 
+
 <img src="/images/2017-01-17/software_config.png" width="680px" />
 
-#### Bootstrap actions:
+### Step 2 : Bootstrap actions:
 - add bootstrap action from s3://aws-bigdata-blog/artifacts/aws-blog-emr-jupyter/install-jupyter-emr5.sh
 - put args for keras, tensorflow installations
 - then spin up the cluster as usual
