@@ -11,7 +11,7 @@ Built predictive intelligence backend relevance service and large scale machine 
 
 *Education* : 
 
-* Duke University, MSc in Particle Physics 
-* University of Science and Technology in China, B.Sc in Applied Physics 
+* Duke University, M.Sc. in Particle Physics 
+* University of Science and Technology in China, B.Sc. in Applied Physics 
 
 *Projects*
