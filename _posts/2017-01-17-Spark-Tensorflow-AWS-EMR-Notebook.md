@@ -8,7 +8,7 @@ tags:
 - Spark
 ---
 
-The need of spark tensorflow/theano integrations has been satisfied in many ways. With AWS EMR boostrap commands, we can simply spin up our own spark cluster with EMR.
+The need of spark integrating tensorflow/theano has been satisfied in many ways. With AWS EMR bootstrap commands, we can simply spin up our own spark cluster with EMR.
 
 ## prerequisites
 - AWS account
