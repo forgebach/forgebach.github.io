@@ -36,7 +36,7 @@ The data were collected directly from customer behavior instead of sampling for 
 
 The methodology is a pipeline that includes EDA, feature engineer, cross validation, variable selection and parameter tuning. We borrowed existing ideas from popular problems like CTR, and tailored the approaches particularly for this data as well. We will briefly describe major steps. The following diagram shows the main steps we did.
 
-**_flow chart of main steps_**
+**_Figure 1 : flow chart of main steps_**
 
 <img src="/images/2017-01-31/diagram.png" title = "flow chart of main steps" width="680px" />
 
@@ -44,6 +44,8 @@ The methodology is a pipeline that includes EDA, feature engineer, cross validat
 
 Basically We analyzed (1) the distribution of each feature and (2) how differently each feature was distributed, across different target labels. For example, among customers that have purchased products 1 to 24 respectively, We generated the distribution of age, family income, activity indices, etc. A feature is considered important if its distribution shows significantly different patterns among 24 groups.  
 For example this image displays the EDA (2) for feature ind_empleado which turned out to be very effective in prediction power.
+
+**_Figure 2 : EDA on feature ind_empleado_EDA_**
 
 <img src="/images/2017-01-31/ind_empleado.png" title = "EDA on feature ind_empleado_EDA" width="680px" />
 
