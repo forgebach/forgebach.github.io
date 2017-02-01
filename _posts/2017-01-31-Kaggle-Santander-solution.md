@@ -34,7 +34,9 @@ The data were collected directly from customer behavior instead of sampling for 
 
 #### Methodology
 
-The methodology is a pipeline that includes EDA, feature engineer, cross validation, variable selection and parameter tuning. We borrowed existing ideas from popular problems like CTR, and tailored the approaches particularly for this data as well. We will briefly describe major steps.
+The methodology is a pipeline that includes EDA, feature engineer, cross validation, variable selection and parameter tuning. We borrowed existing ideas from popular problems like CTR, and tailored the approaches particularly for this data as well. We will briefly describe major steps. The following diagram shows the main steps we did.
+
+<img src="/images/2017-01-31/diagram.png" title = "flow chart of main steps" width="680px" />
 
 - **EDA and Feature Selection**
 
