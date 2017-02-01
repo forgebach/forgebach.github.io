@@ -5,7 +5,6 @@ categories:
 - Notes
 tags:
 - Kaggle
-- Data Mining
 ---
 * Last December,my friend Mu Tian [github](https://github.com/kevinmtian) and I participated a kaggle contest for santander product recommendation predictions [link](https://www.kaggle.com/c/santander-product-recommendation). We competed as a team **_WindFireLoop_** . Eventually, we ranked as 12nd in Public LB and 16th in Private LB. This is a solution write-up for our team by Mu.
 
