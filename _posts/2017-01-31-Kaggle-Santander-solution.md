@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kaggle Santander Product Recommendation Solution(Public LB 12th)
+title: Kaggle Santander Product Recommendation Solution(Public LB 12nd)
 categories: 
 - Notes
 tags:
