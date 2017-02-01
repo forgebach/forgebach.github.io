@@ -7,7 +7,7 @@ tags:
 - Kaggle
 - Data Mining
 ---
-* Last December, I and my friend Mu Tian (github link)[https://github.com/kevinmtian] participated a kaggle contest for recommendation predictions. We competed as a team _WindFireLoop_ . This is a solution summary by Mu.
+* Last December, I and my friend Mu Tian [github](https://github.com/kevinmtian) participated a kaggle contest for recommendation predictions. We competed as a team _WindFireLoop_ . This is a solution summary for our team by Mu.
 
 ## Santander Product Recommendation Solution
 
@@ -41,6 +41,7 @@ The methodology is a pipeline that includes EDA, feature engineer, cross validat
 
 Basically We analyzed (1) the distribution of each feature and (2) how differently each feature was distributed, across different target labels. For example, among customers that have purchased products 1 to 24 respectively, We generated the distribution of age, family income, activity indices, etc. A feature is considered important if its distribution shows significantly different patterns among 24 groups.  
 For example this image displays the EDA (2) for feature ind_empleado which turned out to be very effective in prediction power.
+
 <img src="/images/2017-01-31/ind_empleado.png" title = "EDA on feature ind_empleado_EDA" width="680px" />
 
 - **Feature Engineer**
