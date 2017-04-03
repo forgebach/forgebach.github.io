@@ -22,5 +22,5 @@ Built predictive intelligence backend relevance service and large scale machine 
 	- Developed scalable relevance system with Spark MLlib to predict nation-wide real estate market 
 	- Building email information retrieval toolkit using natural language processing
 - Insight AI Program
-	- [slides link](https://drive.google.com/file/d/0B_2-bkTLf3p6SnRRdjBYWFRlS28/view?usp=sharing)
+	- [slides link](https://docs.google.com/presentation/d/15eJjULhepCzXC6h7x6JUWHjdNggEnRbYFAJgLUgmqs4/edit?usp=sharing)
 	- .....
