@@ -22,5 +22,5 @@ Built predictive intelligence backend relevance service and large scale machine 
 	- Developed scalable relevance system with Spark MLlib to predict nation-wide real estate market 
 	- Building email information retrieval toolkit using natural language processing
 - Insight AI Program
-	- With Cobalt: Audio Classification for Security Robotics [slides link](https://docs.google.com/presentation/d/1ALXwNHKOsLdYTEyHCAV_YUIgZBmYjZ-r_RcUyJ5ujzk/edit#slide=id.p38)
+	- With Cobalt: Audio Classification for Security Robotics [slides link](https://docs.google.com/presentation/d/1ALXwNHKOsLdYTEyHCAV_YUIgZBmYjZ-r_RcUyJ5ujzk/edit#slideid.p38)
 	- Project [website](https://hanzlfs.github.io/Redio) 
